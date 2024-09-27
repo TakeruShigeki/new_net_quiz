@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.link-height-adjust {
+    padding-top: 11rem; /* 調整したい高さ（固定ヘッダーの高さ） */
+    margin-top: -11rem; /* heightと同じ分のネガティブマージン */
+}
+.link-height-adjust2 {
+    padding-top: 4.5rem; /* 調整したい高さ（固定ヘッダーの高さ） */
+    margin-top: -4.5rem; /* heightと同じ分のネガティブマージン */
+}
+.link-height-adjust3 {
+    padding-top: 5rem; /* 調整したい高さ（固定ヘッダーの高さ） */
+    margin-top: -5rem; /* heightと同じ分のネガティブマージン */
+}
+/* ↓文字に影 */
+.text-shadow {
+    color: #ffffff;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 1);
+}
+.text-shadow1 {
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+}
+.text-shadow2 {
+    color: white;
+    text-shadow: 1px 1px 1px #0003ff78, 1px -1px 1px #0003ff78,
+        -1px 1px 1px #0003ff78, -1px -1px 1px #0003ff78;
+}
+.text-shadow3 {
+    color: white;
+    text-shadow: 1px 1px 1px #FF8800FC, 1px -1px 1px #FF8800FC,
+        -1px 1px 1px #FF8800FC, -1px -1px 1px #FF8800FC;
+}
+
+.text-shadow4 {
+    color: white;
+    text-shadow: 1px 1px 1px #B000FB, 1px -1px 1px #B000FB,
+        -1px 1px 1px #B000FB, -1px -1px 1px #B000FB;
+}
+.text-shadow5 {
+    color: white;
+    text-shadow: 1px 1px 1px #fb001d, 1px -1px 1px #fb001d,
+        -1px 1px 1px #fb001d, -1px -1px 1px #fb001d;
+}
+.text-shadow6 {
+    color: white;
+    text-shadow: 1px 1px 1px #000000, 1px -1px 1px #000000,
+        -1px 1px 1px #000000, -1px -1px 1px #000000;
+}
+.text-shadow7 {
+    color: rgb(21, 203, 46);
+    text-shadow: 1px 1px 1px #000000, 1px -1px 1px #000000,
+        -1px 1px 1px #000000, -1px -1px 1px #000000;
+}
+
+
